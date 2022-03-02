@@ -8,7 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 100vh;
+  height: 100%;
   margin: 0;
 }
 
@@ -27,10 +27,10 @@ aside {
 }
 
 button {
-  cursor: pointer;
   background-color: #fff;
-  border: solid 1px #111;
+  border: 1px solid #111;
   border-radius: 5px;
+  cursor: pointer;
   display: block;
   width: 100%;
   padding: 10px;
@@ -56,7 +56,7 @@ h2 {
 h3 {
   background-color: #fff;
   border-bottom: 1px solid #111;
-  padding: 10px;
+  padding-bottom: 10px;
   display: flex;
   justify-content: space-between;
   font-weight: 300;
